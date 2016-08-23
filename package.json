@@ -1,0 +1,35 @@
+{
+  "name": "react-vienna-brand",
+  "version": "1.0.0",
+  "description": "React Vienna Meetup Group Official Logo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imagemin:all": "imagemin *.{svg,png} --out-dir=. --plugin=pngquant --plugin=svgo",
+    "git:add": "git add",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{svg,png}": [
+      "imagemin:all",
+      "git:add"
+    ]
+  },
+  "pre-commit": "lint-staged",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-vienna/brand.git"
+  },
+  "author": "Andrey Okonetchnikov <andrey@okonet.ru>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/react-vienna/brand/issues"
+  },
+  "homepage": "https://github.com/react-vienna/brand#readme",
+  "devDependencies": {
+    "imagemin-cli": "^3.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "lint-staged": "^3.0.0-beta1",
+    "pre-commit": "^1.1.3"
+  }
+}
