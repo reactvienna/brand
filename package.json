@@ -4,14 +4,15 @@
   "description": "React Vienna Meetup Group Official Logo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "imagemin:all": "imagemin *.{svg,png} --out-dir=. --plugin=pngquant --plugin=svgo",
+    "export": "sketchtool export artboards logo.sketch",
+    "postexport": "npm run imagemin",
+    "imagemin": "imagemin *.{svg,png,jpg} --out-dir=. --plugin=pngquant --plugin=svgo",
     "git:add": "git add",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "*.{svg,png}": [
-      "imagemin:all",
+      "imagemin",
       "git:add"
     ]
   },
