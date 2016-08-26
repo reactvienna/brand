@@ -24,6 +24,4 @@
 
 ## Hero image
 
-![Hero Dark](Hero Dark.jpg)
-
-![Hero Bright](Hero Bright.jpg)
+![Hero](Hero.jpg)
