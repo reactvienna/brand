@@ -24,4 +24,8 @@
 
 ## Hero image
 
+### Twitter (1280×400)
 ![Hero](Hero.jpg)
+
+### Meetup.com (960×150)
+![Hero Meetup.com](Hero Meetup.com.jpg)
