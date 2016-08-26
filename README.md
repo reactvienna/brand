@@ -3,19 +3,27 @@
 ## Logo
 
 ![Logo](ReactJS Vienna.png)
+[SVG version](ReactJS Vienna.svg)
 
 ![Logo White](ReactJS Vienna White.png)
+[SVG version](ReactJS Vienna White.svg)
+
+![Logo Black](ReactJS Vienna Black.png)
+[SVG version](ReactJS Vienna Black.svg)
 
 ## Logo with text
 
 ![Logo with text](ReactJS Vienna Text.png)
+[SVG version](ReactJS Vienna Text.svg)
 
 ![Logo with text white](ReactJS Vienna Text White.png)
+[SVG version](ReactJS Vienna Text White.svg)
 
-![Logo with text 2](ReactJS Vienna Text Alt.png)
-
-![Logo with text 2 white](ReactJS Vienna Text Alt White.png)
+![Logo with text black](ReactJS Vienna Text Black.png)
+[SVG version](ReactJS Vienna Text Black.svg)
 
 ## Hero image
 
-![Hero](Hero.jpg)
+![Hero Dark](Hero Dark.jpg)
+
+![Hero Bright](Hero Bright.jpg)
