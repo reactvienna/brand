@@ -5,15 +5,14 @@
   "main": "index.js",
   "scripts": {
     "export": "sketchtool export artboards logo.sketch",
-    "postexport": "npm run imagemin",
-    "imagemin": "imagemin *.{svg,png,jpg} --out-dir=. --plugin=pngquant --plugin=svgo",
-    "git:add": "git add",
+    "postexport": "npm run imagemin -- *.{svg,png}",
+    "imagemin": "imagemin --out-dir=. --plugin=pngquant --plugin=svgo",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "*.{svg,png,jpg}": [
+    "*.{svg,png}": [
       "imagemin",
-      "git:add"
+      "git add"
     ]
   },
   "pre-commit": "lint-staged",
