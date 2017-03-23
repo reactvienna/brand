@@ -1,26 +1,26 @@
-# ReactJS Vienna Meetup Branding
+# React-Vienna-Meetup Branding
 
 ## Logo
 
-![Logo](ReactJS Vienna.png)
-[SVG version](ReactJS Vienna.svg)
+![Logo](React-Vienna.png)
+[SVG version](React-Vienna.svg)
 
-![Logo White](ReactJS Vienna White.png)
-[SVG version](ReactJS Vienna White.svg)
+![Logo White](React-Vienna-White.png)
+[SVG version](React-Vienna-White.svg)
 
-![Logo Black](ReactJS Vienna Black.png)
-[SVG version](ReactJS Vienna Black.svg)
+![Logo Black](React-Vienna-Black.png)
+[SVG version](React-Vienna-Black.svg)
 
 ## Logo with text
 
-![Logo with text](ReactJS Vienna Text.png)
-[SVG version](ReactJS Vienna Text.svg)
+![Logo with text](React-Vienna-Text.png)
+[SVG version](React-Vienna-Text.svg)
 
-![Logo with text white](ReactJS Vienna Text White.png)
-[SVG version](ReactJS Vienna Text White.svg)
+![Logo with text white](React-Vienna-TextWhite.png)
+[SVG version](React-Vienna-TextWhite.svg)
 
-![Logo with text black](ReactJS Vienna Text Black.png)
-[SVG version](ReactJS Vienna Text Black.svg)
+![Logo with text black](React-Vienna-TextBlack.png)
+[SVG version](React-Vienna-TextBlack.svg)
 
 ## Hero image
 
@@ -28,4 +28,4 @@
 ![Hero](Hero.jpg)
 
 ### Meetup.com (960×150)
-![Hero Meetup.com](Hero Meetup.com.jpg)
+![Hero Meetup.com](Hero-Meetup.com.jpg)
